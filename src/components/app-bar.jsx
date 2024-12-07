@@ -16,7 +16,7 @@ export default function AppBar() {
 
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center justify-between">
-      <Link className="flex items-center justify-center" href="/">
+      <Link className="flex items-center justify-center" to="/">
         <HomeIcon />
         <span className="sr-only">StayScape</span>
       </Link>
